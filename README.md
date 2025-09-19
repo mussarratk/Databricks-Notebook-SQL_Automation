@@ -18,6 +18,7 @@ Step 5: Align Pipelines with Business Outcomes
 <img width="329" height="245" alt="image" src="https://github.com/user-attachments/assets/96f60450-4376-4c43-ba46-d92ae67633bb" />
 <img width="354" height="276" alt="image" src="https://github.com/user-attachments/assets/4f54fa20-c3dc-4174-ae66-6c4f913359da" />
 <img width="409" height="341" alt="image" src="https://github.com/user-attachments/assets/40272478-5053-4c1f-9362-6df6ec3d70a8" />
+<img width="469" height="286" alt="image" src="https://github.com/user-attachments/assets/c69165ad-470e-4dfd-974c-454365018620" />
 
 
 

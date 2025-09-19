@@ -6,7 +6,7 @@
 <img width="918" height="601" alt="image" src="https://github.com/user-attachments/assets/af0e6914-8ddc-4a6b-a48c-2a3a10ec7c97" />
 
 # 10x with ai
-
+## Ask ai to suggest different partition strategy
 Step 1: Own the Data Ingestion Pipeline
 Step 2: Architect Smart Storage
 Step 3: Master Feature Engineering
@@ -17,6 +17,9 @@ Step 5: Align Pipelines with Business Outcomes
 <img width="477" height="466" alt="image" src="https://github.com/user-attachments/assets/d94f9eaf-95d5-47a3-9f0d-69e0be12a0f5" />
 <img width="329" height="245" alt="image" src="https://github.com/user-attachments/assets/96f60450-4376-4c43-ba46-d92ae67633bb" />
 <img width="354" height="276" alt="image" src="https://github.com/user-attachments/assets/4f54fa20-c3dc-4174-ae66-6c4f913359da" />
+<img width="409" height="341" alt="image" src="https://github.com/user-attachments/assets/40272478-5053-4c1f-9362-6df6ec3d70a8" />
+
+
 
 
 <img width="329" height="264" alt="image" src="https://github.com/user-attachments/assets/8b138c31-7053-4527-9fd6-33c9662b35a0" />

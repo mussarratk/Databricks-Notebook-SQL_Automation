@@ -128,3 +128,44 @@ finsight-de-pipeline/
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+
+---
+
+<details>
+
+---
+
+Step A: S3 Bucket - setup
+<img width="1359" height="454" alt="image" src="https://github.com/user-attachments/assets/7c6cf714-995b-4915-a14c-78d902e5ac0c" />
+
+Step B: DynamoDB Table
+
+<img width="1358" height="552" alt="image" src="https://github.com/user-attachments/assets/e0b955b9-29aa-46f3-a3e5-c6fe397ab67b" />
+
+Step C: IAM Policy (The "Permissions")
+
+- Lambda needs a Role with a policy that allows:
+- S3: GetObject, PutObject, DeleteObject (to move files).
+- DynamoDB: PutItem.
+- CloudWatch: CreateLogGroup, PutLogEvents (for debugging).
+
+<img width="1354" height="521" alt="image" src="https://github.com/user-attachments/assets/363fee42-a0a1-4316-ae97-7c81baa9b5a0" />
+
+
+
+Step 4 - The Lambda Logic (FinSight-File-Validator)You will write this in Python 3.x using the boto3 library.Key Logic Highlights:Parsing the Filename: Use .split('_') to extract the region (e.g., transactions_Asia_20230101.csv).Checking Content: Use body.decode('utf-8').splitlines() to check if the length of lines is $> 1$.Moving Files: In S3, there is no "move" command. You must Copy the object to the new path (validated/dt=.../) and then Delete the original from incoming/.
+
+
+
+
+
+
+
+
+
+
+---
+
+
+ 
+</details>

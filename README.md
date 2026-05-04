@@ -444,5 +444,11 @@ To verify your work, upload these three files to `incoming/`:
 ---
 - 4 files in failed/ folder
 
+<img width="1198" height="416" alt="image" src="https://github.com/user-attachments/assets/44e623fa-e4b8-4aa6-b759-60676f41776d" />
+<img width="797" height="427" alt="image" src="https://github.com/user-attachments/assets/fd31a8e6-9c85-4677-bdd6-0d78675c5253" />
+<img width="1358" height="478" alt="image" src="https://github.com/user-attachments/assets/2981c7b4-e641-4a88-ad78-897e7577cd6d" />
+
+
+
  
 </details>

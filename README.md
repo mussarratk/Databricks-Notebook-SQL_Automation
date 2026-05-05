@@ -196,6 +196,7 @@ The client mentioned they had issues with **partial uploads** and **duplicate pr
 <img width="1354" height="527" alt="image" src="https://github.com/user-attachments/assets/66967cf6-f85b-480f-be17-e8e270f05be6" />
 <img width="1361" height="564" alt="image" src="https://github.com/user-attachments/assets/00978b5f-450f-4840-ac34-6d61f5fd4709" />
 <img width="1358" height="540" alt="image" src="https://github.com/user-attachments/assets/1aef9c3a-9576-43cc-932a-d31cd02f533b" />
+<img width="1359" height="526" alt="image" src="https://github.com/user-attachments/assets/787384b8-e0c8-443a-93bb-3fae4d7ce037" />
 
 
 <details>
@@ -439,6 +440,9 @@ To verify your work, upload these three files to `incoming/`:
 <img width="1360" height="525" alt="image" src="https://github.com/user-attachments/assets/0d695570-52d2-40ce-8437-3eb816893b0a" />
 <img width="1365" height="557" alt="image" src="https://github.com/user-attachments/assets/5ec4feec-f221-4e56-949c-dfc5d6df7064" />
 
+---
+<img width="1226" height="288" alt="image" src="https://github.com/user-attachments/assets/10541b5d-2a10-4488-a0e2-ba48117cff76" />
+<img width="1352" height="534" alt="image" src="https://github.com/user-attachments/assets/6ecffa8e-c7fc-420c-8280-a6b1fba5b127" />
 
 
 ---
@@ -448,7 +452,14 @@ To verify your work, upload these three files to `incoming/`:
 <img width="797" height="427" alt="image" src="https://github.com/user-attachments/assets/fd31a8e6-9c85-4677-bdd6-0d78675c5253" />
 <img width="1358" height="478" alt="image" src="https://github.com/user-attachments/assets/2981c7b4-e641-4a88-ad78-897e7577cd6d" />
 
+---
 
+<img width="1350" height="495" alt="image" src="https://github.com/user-attachments/assets/44d8878c-f994-4cf4-af77-656408850e80" />
+<img width="1344" height="485" alt="image" src="https://github.com/user-attachments/assets/63d3db44-e076-403b-a5e3-712f05f2ada7" />
+
+
+
+---
 
  
 </details>

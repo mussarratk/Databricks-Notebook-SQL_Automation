@@ -655,25 +655,76 @@ def lambda_handler(event, context):
 *   **Resiliency**: If a partner adds `branch_id`, the `schema_master.json` version bumps to `2.0` automatically, and the file is processed instead of failing.
 
 ---
+<img width="1352" height="517" alt="image" src="https://github.com/user-attachments/assets/d6455bdb-8836-4c0b-bfdf-86e5646cfb2f" />
+<img width="1338" height="471" alt="image" src="https://github.com/user-attachments/assets/8af9ef9b-9569-4f4a-a40e-c7c57992790c" />
+
+<img width="1350" height="482" alt="image" src="https://github.com/user-attachments/assets/cb88069d-c76c-40c6-b69e-9e69119fe865" />
+
+<img width="1362" height="599" alt="image" src="https://github.com/user-attachments/assets/d81ffa50-7f7e-41cb-91d4-bc157f618fe0" />
+
+<img width="1349" height="508" alt="image" src="https://github.com/user-attachments/assets/ca8925b2-924a-46fe-b731-d650aaace08b" />
+
+<img width="1357" height="526" alt="image" src="https://github.com/user-attachments/assets/71af94d5-6680-45cc-b019-c9aad778ede2" />
+
+
+---
+
+ 
+</details>
+
+<details>
+
+---
+
+# Task - 4 
+
+- s3
+
+<img width="1359" height="501" alt="image" src="https://github.com/user-attachments/assets/9a8403cc-d553-43cb-ba3d-bfade42a61d4" />
+
+<img width="1357" height="344" alt="image" src="https://github.com/user-attachments/assets/2b1eaf3c-2d43-4639-a5dd-d4869dae815e" />
+<img width="1347" height="489" alt="image" src="https://github.com/user-attachments/assets/d6ad2985-f8de-4a36-b322-943d6e5886fb" />
+<img width="1340" height="497" alt="image" src="https://github.com/user-attachments/assets/c7bca710-a9f1-48bc-b9d0-302dfea18735" />
+<img width="1304" height="480" alt="image" src="https://github.com/user-attachments/assets/1a944fc7-1b77-466a-9fc8-b31b28736871" />
+<img width="1314" height="478" alt="image" src="https://github.com/user-attachments/assets/804c1d5e-0b90-4a04-a419-3a16063716ab" />
+
+- lambda
+
+<img width="1350" height="532" alt="image" src="https://github.com/user-attachments/assets/c8eeebbf-7ce8-4d61-9717-f611fa4c4739" />
+<img width="1366" height="524" alt="image" src="https://github.com/user-attachments/assets/98a117d0-51af-4333-a548-3d3e5dcd57e0" />
+
+<img width="1363" height="593" alt="image" src="https://github.com/user-attachments/assets/c802ce4d-0583-4559-9c0b-afc4ab52511b" />
+
+
+- dynamodb
+
+  - test
+  - <img width="1344" height="511" alt="image" src="https://github.com/user-attachments/assets/a2dc1614-e0d5-4226-b53a-330deb0a7da0" />
+<img width="1356" height="563" alt="image" src="https://github.com/user-attachments/assets/54ed14fe-90c7-482f-96d3-6da1c79cf9ee" />
+<img width="1351" height="511" alt="image" src="https://github.com/user-attachments/assets/6b460234-5fab-4f0d-b87e-bd04800f3195" />
+<img width="999" height="341" alt="image" src="https://github.com/user-attachments/assets/2a370fab-228b-499c-9339-48e2e7af17c8" />
 
 
 
-
-
-
-
-
-
-
-
-
+- slack
+<img width="1364" height="575" alt="image" src="https://github.com/user-attachments/assets/99bfe3a1-4121-46a6-b046-de24d8823b3d" />
+<img width="1045" height="521" alt="image" src="https://github.com/user-attachments/assets/72dd6c12-f0fc-4262-8d8f-357470600971" />
+<img width="1009" height="543" alt="image" src="https://github.com/user-attachments/assets/fe0064e9-281c-4386-9e7f-ace14b3216dc" />
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/49b38c2a-09e5-470f-a0da-d1347cda4787" />
+<img width="733" height="561" alt="image" src="https://github.com/user-attachments/assets/cb8085f0-a275-4232-9164-e02d12ec0338" />
 
 
 
 
 ---
 
+### The Sequence of Events
+1.  **Upload**: You (or a partner) upload `transactions_ASIA_2026-05-06.csv` to `finsight-de-musb/incoming/`.
+2.  **Trigger**: S3 detects the new object and sends an event notification to your **Unified Lambda**.
+3.  **Execution**: The Lambda parses the name, checks for a valid CSV, standardizes the headers, validates the rows, and logs everything to **DynamoDB**.
+4.  **Alert**: Finally, it sends that formatted success or failure message to your **Slack channel**.
 
+---
 
  
 </details>

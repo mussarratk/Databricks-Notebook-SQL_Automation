@@ -457,9 +457,51 @@ To verify your work, upload these three files to `incoming/`:
 <img width="1350" height="495" alt="image" src="https://github.com/user-attachments/assets/44d8878c-f994-4cf4-af77-656408850e80" />
 <img width="1344" height="485" alt="image" src="https://github.com/user-attachments/assets/63d3db44-e076-403b-a5e3-712f05f2ada7" />
 
-
-
 ---
 
  
+</details>
+
+
+<details>
+
+---
+# FinSight-DQ-Processor - Serverless Row-Level - This Lambda will act as the second gate in your pipeline, transforming raw "validated" files into analytics-ready data.
+
+<img width="1360" height="416" alt="image" src="https://github.com/user-attachments/assets/094ace90-2bee-4c16-8aec-fc75ac2b8fec" />
+
+<img width="1353" height="397" alt="image" src="https://github.com/user-attachments/assets/92e21d3e-72fa-4b56-92d2-f240bc7879d6" />
+<img width="1357" height="566" alt="image" src="https://github.com/user-attachments/assets/3056beb7-4244-4e88-b081-78c169d376c2" />
+<img width="1355" height="557" alt="image" src="https://github.com/user-attachments/assets/e5b4ff29-59d1-49b0-8429-04895a88fed6" />
+<img width="1360" height="601" alt="image" src="https://github.com/user-attachments/assets/079da612-c764-43ff-b489-727224231c9f" />
+<img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/2184c697-0cae-4003-870e-cfe978d2f156" />
+
+<img width="1361" height="601" alt="image" src="https://github.com/user-attachments/assets/23727aaa-f226-4eca-9108-50cad2d57da2" />
+
+<img width="1349" height="496" alt="image" src="https://github.com/user-attachments/assets/36a07fc4-9f2d-4d88-9d75-e23766826907" />
+
+<img width="892" height="491" alt="image" src="https://github.com/user-attachments/assets/10deceb5-9c4f-470d-bf5c-19ece6e68630" />
+
+- Total - rejected 12+16= 28
+<img width="1347" height="523" alt="image" src="https://github.com/user-attachments/assets/32bde390-3055-4594-b9bf-6a8bce7c5358" />
+<img width="1357" height="593" alt="image" src="https://github.com/user-attachments/assets/0e8c07b3-842b-4052-8071-8aec7c5686ea" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ---
 </details>

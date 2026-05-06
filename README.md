@@ -487,6 +487,8 @@ To verify your work, upload these three files to `incoming/`:
 <img width="1357" height="593" alt="image" src="https://github.com/user-attachments/assets/0e8c07b3-842b-4052-8071-8aec7c5686ea" />
 
 
+<img width="1344" height="531" alt="image" src="https://github.com/user-attachments/assets/c82dc489-7926-4239-8efa-89363e72ed2c" />
+<img width="1353" height="497" alt="image" src="https://github.com/user-attachments/assets/86072433-77d9-40c8-baf8-d43a9c5956a9" />
 
 
 

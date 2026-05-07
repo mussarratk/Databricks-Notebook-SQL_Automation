@@ -665,6 +665,7 @@ def lambda_handler(event, context):
 <img width="1349" height="508" alt="image" src="https://github.com/user-attachments/assets/ca8925b2-924a-46fe-b731-d650aaace08b" />
 
 <img width="1357" height="526" alt="image" src="https://github.com/user-attachments/assets/71af94d5-6680-45cc-b019-c9aad778ede2" />
+<img width="1360" height="529" alt="image" src="https://github.com/user-attachments/assets/23157676-0b96-4b75-a0e4-259b9540e75f" />
 
 
 ---
@@ -677,6 +678,7 @@ def lambda_handler(event, context):
 ---
 
 # Task - 4 
+## Pipeline Optimization and Unified Flow
 
 - s3
 
@@ -718,8 +720,17 @@ def lambda_handler(event, context):
 
 ---
 
+### In Task 4, goal is to refactor the pipeline into:
+
+- A clean, maintainable S3 folder structure
+- One unified Lambda that handles file checks, schema drift handling, row-level DQ, and output routing
+- One DynamoDB audit table for complete observability
+- Slack notifications driven directly from the DynamoDB audit record
+  
+---
+
 ### The Sequence of Events
-1.  **Upload**: You (or a partner) upload `transactions_ASIA_2026-05-06.csv` to `finsight-de-musb/incoming/`.
+1.  **Upload**: Upload all dates file  `transactions_ASIA_2026-05-06.csv` to `finsight-de-musb/incoming/`.
 2.  **Trigger**: S3 detects the new object and sends an event notification to your **Unified Lambda**.
 3.  **Execution**: The Lambda parses the name, checks for a valid CSV, standardizes the headers, validates the rows, and logs everything to **DynamoDB**.
 4.  **Alert**: Finally, it sends that formatted success or failure message to your **Slack channel**.
